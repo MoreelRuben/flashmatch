@@ -1,0 +1,79 @@
+/* CSS styles for the e-dynasty website */
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Aside styles */
+  aside {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  /* Main styles */
+  main {
+    margin-left: 25%;
+    padding: 20px;
+  }
+  
+  /* Game logo styles */
+  aside img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #333;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    aside {
+      width: 100%;
+      float: none;
+    }
+  
+    main {
+      margin-left: 0;
+    }
+  }
+  
+  /* Sign-up button styles */
+  .signup-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #45a049;
+  }
+  
