@@ -210,6 +210,10 @@ footer {
    margin: 0;
  }
  
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
  nav ul {
    list-style-type: none;
    margin: 0;
@@ -302,7 +306,7 @@ button:hover:after{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 aside{
