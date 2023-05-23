@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sports Betting Site</title>
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="./assets/js/new.js"></script>
+</head>
+<body>
+  <header>
+    <h1>E-dynasty</h1>
+    <nav>
+      <ul></ul>
+      </ul>
+      <div class="Login">
+      <button>Login</button>
+    </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="form-page image-choice" id="typeOfBeard">
+        <h3>1. Which type of beard do you have?</h3>
+         <label>
+          <input type="radio" name="typeOfBeard" value="mustache"checked>
+          <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/mustache.png?400" alt="bracket">
+          <p>Bracket</p>
+         </label>
+    
+        <label>
+          <input type="radio" name="typeOfBeard" value="shortbeard">
+          <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/shortbeard.png?401" alt="league">
+          <p>Round robint</p>
+        </label>
+    
+        <label>
+            <input type="radio" name="typeOfBeard" value="mediumbeard">
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/mediumbeard.png?402" alt="league and bracket">
+            <p>Round robin + Bracket</p>
+        </label>
+    
+        <label>
+            <input type="radio" name="typeOfBeard" value="longbeard">
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/wizardbeard.png?412" alt="swiss">
+            <p>Swiss</p>
+        </label>
+        </br>
+        <button type="button" id="typeOfBeardSubmit">Next</button>
+    </div>
+    
+    <div class="form-page image-choice" id="styleOfBeard">
+        <h3>2. Which style of beard do you want?</h3>
+        <label>
+            <input type="radio" name="styleOfBeard" value="proper"checked>
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/proper.png?404" alt="proper">
+            <p>Clean & Proper</p>
+        </label>
+    
+        <label>
+            <input type="radio" name="styleOfBeard" value="outdoorsy">
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/outdoorsy.png?405" alt="outdoorsy">
+            <p>Outdoorsy</p>
+        </label>
+    
+        <label>
+            <input type="radio" name="styleOfBeard" value="urban">
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/urban.png?406" alt="urban">
+            <p>Urban & Social</p>
+        </label>
+    
+        <label>
+            <input type="radio" name="styleOfBeard" value="natural">
+            <img src="https://cdn.shopify.com/s/files/1/0222/2214/files/natural.png?407" alt="natural">
+            <p>Hip & Natural</p>
+        </label>
+        </br>
+        <button type="button" id="styleOfBeardBack">Back</button>
+        <button type="button" id="styleOfBeardSubmit">Next</button>
+    </div>
+    
+    <div class="form-page groom-container" id="groomOfBeard">
+        <h3>3. How much time are you willing to put into beard grooming?</h3>
+    
+        <label class="radio-choice">
+            <input type="radio" name="groomOfBeard" value="mintime">
+            <p>1 - 5 mins</p>
+            <span class="checkmark"></span>
+        </label>
+    
+        <label class="radio-choice">
+            <input type="radio" name="groomOfBeard" value="medtime"checked>
+            <p>5 - 15 mins</p>
+            <span class="checkmark"></span>
+        </label>
+    
+        <label class="radio-choice">
+            <input type="radio" name="groomOfBeard" value="maxtime">
+            <p>15+ mins</p>
+            <span class="checkmark"></span>
+        </label>
+        </br>	 
+        <button type="button" id="groomOfBeardBack">Back</button>
+      <button type="button" id="recommendedProducts">Show Recommended Products</button>
+    </div>
+  
+  <footer>
+    <p>&copy; 2023 Sports Betting Site. All rights reserved.</p>
+  </footer>
+</body>
+</html>
